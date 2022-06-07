@@ -1,0 +1,6 @@
+In the previous chapter we covered the basic functions that perform I/O. 
+The discussion centered on I/O for regular files—opening a file, and reading or writing a file. 
+We’ll now look at additional features of the file system and the properties of a file. 
+We’ll start with the stat functions and go through each member of the stat structure, looking at all the attributes of a file. In this process, we’ll also describe each of the functions that modify these attributes: change the owner, change the permissions, and so on. 
+We’ll also look in more detail at the structure of a UNIX file system and symbolic links. 
+We finish this chapter with the functions that operate on directories, and we develop a function that descends through a directory hierarchy.
